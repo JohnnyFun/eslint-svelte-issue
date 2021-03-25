@@ -15,7 +15,6 @@ module.exports = {
   ],
   settings: {
     'svelte3/ignore-warnings': warning => {
-      if (warning.code === 'a11y-label-has-associated-control') return true // we have many labels without `for` attr
       if (warning.code === 'no-unused-vars' && /'\$[^']+' is assigned a value but never used./.test(warning.message)) return true
       return false
     },
