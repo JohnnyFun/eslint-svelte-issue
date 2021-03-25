@@ -15,3 +15,5 @@ C:\dev\eslint-svelte-issue\src\App.svelte
 
 ✖ 2 problems (1 error, 1 warning)
 ```
+
+Ignoring with `svelte3/ignore-warnings` in `.eslintrc.js` doesn't seem to work either.
